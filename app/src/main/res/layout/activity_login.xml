@@ -43,7 +43,6 @@
         SECARA VERTICAL (KEBAWAH)-->
     <LinearLayout
         android:gravity="center"
-        android:layout_gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="30dp"
@@ -76,23 +75,45 @@
             android:layout_marginTop="10dp"
             android:hint="Input username" />
 
+
 <!--     YUK BUAT UNTUK TEXTVIEW , EDIT TEXTNYA DAN BUTTON -->
 <!--        CARA NYA SAMA KAYAK DIATAS YA -->
 
 <!--        BERIKUR LANGKAHNYA..-->
 
 <!--        1. GUNAKAN TEXT VIEW UNTUK MENAMPILKAN TEXT PASSWORD-->
-
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingTop="5dp" />
 
 <!--        2. GUNAKAN EDITTEXT UNTUK MENAMPILKAN TEXT YANG DAPAT DIEDIT OLEH USER-->
+        <EditText
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_corners"
+            android:hint="Masukkan Password"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
 
 
 <!--        3. GUNAKAN VIEW BUTTON UNTUK PINDAH ACTIVITY/HALAMAN -->
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="login"
+            android:background="@drawable/ic_corners" />
 
 
 
     </LinearLayout>
-
-
 
 </LinearLayout>
